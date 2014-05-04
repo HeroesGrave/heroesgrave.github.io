@@ -1,0 +1,12 @@
+---
+layout: post
+title: "New Logo"
+date: 2014-01-20 10:46:55 +1300
+comments: true
+categories: [announcements, art]
+---
+
+![](http://i.imgur.com/xMnzNiV.png)
+
+---
+**HeroesGrave**

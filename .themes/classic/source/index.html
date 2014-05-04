@@ -1,29 +1,246 @@
----
-layout: default
----
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>HeroesGrave Development</title>
+  <meta name="author" content="HeroesGrave">
+
+  
+  <meta name="description" content="Welcome to my new blog/website! Special thanks to Github and Octopress for their services that enable me to do this. For those who are new to my work &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://HeroesGrave.github.io">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="HeroesGrave Development" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">HeroesGrave Development</a></h1>
+  
+    <h2>If is wasn't Awesome, it wasn't me.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:HeroesGrave.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
     <article>
-      {% include article.html %}
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/19/hello-world/">Hello World!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-19T13:21:41+13:00" pubdate data-updated="true">Jan 19<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/01/19/hello-world/#disqus_thread"
+             data-disqus-identifier="http://HeroesGrave.github.io/blog/2014/01/19/hello-world/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>Welcome to my new blog/website!</h3>
+
+<p>Special thanks to <a href="http://github.com/">Github</a> and <a href="http://octopress.org/">Octopress</a> for their services that enable me to do this.</p>
+
+<p>For those who are new to my work, I previously had (and for now, still have) a blog with Tumblr (which can be found <a href="http://heroesgravedevelopment.tumblr.com/">here</a>),
+but I have been looking for alternatives as Tumblr is full of junk which gets in the way of me blogging.</p>
+
+<p>I will probably keep the Tumblr blog going for a little while longer, while I test out the features of Octopress/Github Pages, but it will not last forever.</p>
+
+<p><strong>Okay, let me introduce myself:</strong></p>
+
+<p>I am HeroesGrave (<em>not</em> my real name, just a pseudonym).</p>
+
+<p>As <code>HeroesGrave</code>, I am a game developer.<br/>
+As <code>!HeroesGrave</code>, I am a gamer.</p>
+
+<p>My skills lie primarily in programming, but my pixel art is improving, and although I haven&rsquo;t tried to yet,
+I have been brought up musically, so hopefully I can make some decent audio.</p>
+
+<p>I guess I also design games too, but that doesn&rsquo;t take much effort, and in the case of indie game development, is usually covered by programming anyway.</p>
+
+<p>I support and enjoy taking part in hacker culture (<em>Not cracker. See <a href="http://www.catb.org/jargon/html/C/cracker.html/">here</a></em>).</p>
+
+<p>I hate Apple more than Microsoft.<br/>
+I hate Microsoft more than Apple. <sup><sub><em>Despite the semi-paradoxical joke, I hate Microsoft a little bit more.</em></sub></sup><br/>
+In general, I hate anything that takes people&rsquo;s freedom away.</p>
+
+<p>I love Linux.<br/>
+I love the Free Software movement, and when in the right place, the Open Source movement too.<br/>
+(for those who don&rsquo;t know the difference, <a href="https://www.gnu.org/philosophy/free-software-for-freedom.en.html">see this</a>)</p>
+
+<p>I am very familiar with Java (my first and primary language), have just about learned <a href="https://github.com/mozilla/rust/">Rust</a>,
+can read but not write code in C/C++, and can generally understand what a (sane) piece of code does in most common programming languages.</p>
+
+<h3>Notable Projects</h3>
+
+<ul>
+<li>Paint.JAVA, a cross-platform Paint.NET clone. <a href="https://github.com/HeroesGrave/Paint.JAVA/">@github</a></li>
+<li><code>rust-workspace</code>, a simple shell to make building Rust projects simpler. <a href="https://github.com/HeroesGrave/rust-workspace/">@github</a></li>
+</ul>
+
+
+<h3>Other Links</h3>
+
+<ul>
+<li>My Ludum Dare entries/posts. <a href="http://ludumdare.com/compo/author/HeroesGrave/">@ludumdare.com</a></li>
+<li>My Tumblr blog. <a href="http://heroesgravedevelopment.tumblr.com/">@tumblr</a></li>
+</ul>
+
+
+<hr />
+
+<p><strong>HeroesGrave</strong></p>
+</div>
+  
+  
+
+
     </article>
-  {% endfor %}
+  
   <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
+    
     <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
+    
   </div>
 </div>
 <aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/01/19/hello-world/">Hello World!</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/HeroesGrave">@HeroesGrave</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'HeroesGrave',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
 </aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - HeroesGrave -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'heroesgrave';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
